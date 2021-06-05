@@ -2,11 +2,10 @@ name: 'Daily prices'
 
 on:
   schedule:
-    - cron: '0,30 * * * *'
+    - cron: '30 2 * * *'
   workflow_dispatch:
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   ESIOS_TOKEN: ${{ secrets.ESIOS_TOKEN }}
 
 jobs:
