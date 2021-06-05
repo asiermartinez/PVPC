@@ -20,7 +20,7 @@ jobs:
         ref: main
 
     - name: Get today's prices
-      run: ./scripts/get_prices.sh
+      run: sh ./scripts/get_prices.sh
 
     - name: Store env variables
       run: |
