@@ -2,7 +2,7 @@ name: 'Daily prices'
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: "* * * * *"
   workflow_dispatch:
 
 env:
@@ -28,8 +28,8 @@ jobs:
       
     - name: Commit and push updates
       run: |
-        git config user.name 'Asier Martinez'
-        git config user.email 'hey@asier.io'
+        git config user.name "Asier Martinez"
+        git config user.email "hey@asier.io"
         git add .
         git commit -m "Updating prices for ${TODAY}"
         git push
