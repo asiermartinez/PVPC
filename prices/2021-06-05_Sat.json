@@ -1,0 +1,674 @@
+[
+  {
+    "date": "2021-06-05",
+    "time": "00:00",
+    "ICB": {
+      "price": "0.10340",
+      "market": "0.08847",
+      "adjustment": "0.00634",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00238",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10340",
+      "market": "0.08847",
+      "adjustment": "0.00634",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00238",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "01:00",
+    "ICB": {
+      "price": "0.09697",
+      "market": "0.08092",
+      "adjustment": "0.00756",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00229",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09697",
+      "market": "0.08092",
+      "adjustment": "0.00756",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00229",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "02:00",
+    "ICB": {
+      "price": "0.09435",
+      "market": "0.07759",
+      "adjustment": "0.00829",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00226",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09435",
+      "market": "0.07759",
+      "adjustment": "0.00829",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00226",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "03:00",
+    "ICB": {
+      "price": "0.09548",
+      "market": "0.07789",
+      "adjustment": "0.00910",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00228",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09548",
+      "market": "0.07789",
+      "adjustment": "0.00910",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00228",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "04:00",
+    "ICB": {
+      "price": "0.09431",
+      "market": "0.07760",
+      "adjustment": "0.00825",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00226",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09431",
+      "market": "0.07760",
+      "adjustment": "0.00825",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00226",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "05:00",
+    "ICB": {
+      "price": "0.09451",
+      "market": "0.07777",
+      "adjustment": "0.00828",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00226",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09451",
+      "market": "0.07777",
+      "adjustment": "0.00828",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00226",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "06:00",
+    "ICB": {
+      "price": "0.09376",
+      "market": "0.07770",
+      "adjustment": "0.00760",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00225",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09376",
+      "market": "0.07770",
+      "adjustment": "0.00760",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00225",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "07:00",
+    "ICB": {
+      "price": "0.09609",
+      "market": "0.08058",
+      "adjustment": "0.00702",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00228",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09609",
+      "market": "0.08058",
+      "adjustment": "0.00702",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00228",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "08:00",
+    "ICB": {
+      "price": "0.10283",
+      "market": "0.08842",
+      "adjustment": "0.00584",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00237",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10283",
+      "market": "0.08842",
+      "adjustment": "0.00584",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00237",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "09:00",
+    "ICB": {
+      "price": "0.10236",
+      "market": "0.09043",
+      "adjustment": "0.00338",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00235",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10236",
+      "market": "0.09043",
+      "adjustment": "0.00338",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00235",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "10:00",
+    "ICB": {
+      "price": "0.10678",
+      "market": "0.09498",
+      "adjustment": "0.00320",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00241",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10678",
+      "market": "0.09498",
+      "adjustment": "0.00320",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00241",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "11:00",
+    "ICB": {
+      "price": "0.10693",
+      "market": "0.09506",
+      "adjustment": "0.00326",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00241",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10693",
+      "market": "0.09506",
+      "adjustment": "0.00326",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00241",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "12:00",
+    "ICB": {
+      "price": "0.10658",
+      "market": "0.09480",
+      "adjustment": "0.00318",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00241",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10658",
+      "market": "0.09480",
+      "adjustment": "0.00318",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00241",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "13:00",
+    "ICB": {
+      "price": "0.10701",
+      "market": "0.09525",
+      "adjustment": "0.00315",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00242",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10701",
+      "market": "0.09525",
+      "adjustment": "0.00315",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00242",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "14:00",
+    "ICB": {
+      "price": "0.10482",
+      "market": "0.09288",
+      "adjustment": "0.00336",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00238",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10482",
+      "market": "0.09288",
+      "adjustment": "0.00336",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00238",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "15:00",
+    "ICB": {
+      "price": "0.10025",
+      "market": "0.08822",
+      "adjustment": "0.00352",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00232",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10025",
+      "market": "0.08822",
+      "adjustment": "0.00352",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00232",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "16:00",
+    "ICB": {
+      "price": "0.09899",
+      "market": "0.08652",
+      "adjustment": "0.00397",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00230",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09899",
+      "market": "0.08652",
+      "adjustment": "0.00397",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00230",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "17:00",
+    "ICB": {
+      "price": "0.09859",
+      "market": "0.08608",
+      "adjustment": "0.00403",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00229",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09859",
+      "market": "0.08608",
+      "adjustment": "0.00403",
+      "om_financing": "0.00003",
+      "os_financing": "0.00016",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00229",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "18:00",
+    "ICB": {
+      "price": "0.09919",
+      "market": "0.08664",
+      "adjustment": "0.00405",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00230",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09919",
+      "market": "0.08664",
+      "adjustment": "0.00405",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00230",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "19:00",
+    "ICB": {
+      "price": "0.09966",
+      "market": "0.08839",
+      "adjustment": "0.00276",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00232",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.09966",
+      "market": "0.08839",
+      "adjustment": "0.00276",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00232",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "20:00",
+    "ICB": {
+      "price": "0.10730",
+      "market": "0.09478",
+      "adjustment": "0.00387",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00244",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10730",
+      "market": "0.09478",
+      "adjustment": "0.00387",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00244",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "21:00",
+    "ICB": {
+      "price": "0.11092",
+      "market": "0.09878",
+      "adjustment": "0.00344",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00250",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.11092",
+      "market": "0.09878",
+      "adjustment": "0.00344",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00250",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "22:00",
+    "ICB": {
+      "price": "0.11130",
+      "market": "0.09928",
+      "adjustment": "0.00330",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00251",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.11130",
+      "market": "0.09928",
+      "adjustment": "0.00330",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00251",
+      "auctions": "0.00000"
+    }
+  },
+  {
+    "date": "2021-06-05",
+    "time": "23:00",
+    "ICB": {
+      "price": "0.10722",
+      "market": "0.09467",
+      "adjustment": "0.00389",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00246",
+      "auctions": "0.00000"
+    },
+    "CAM": {
+      "price": "0.10722",
+      "market": "0.09467",
+      "adjustment": "0.00389",
+      "om_financing": "0.00003",
+      "os_financing": "0.00017",
+      "uninterruptibility": "0.00000",
+      "capacity": "0.00000",
+      "tolls": "0.00600",
+      "variables": "0.00246",
+      "auctions": "0.00000"
+    }
+  }
+]
