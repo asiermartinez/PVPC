@@ -1,4 +1,4 @@
-name: 'Retrieve daily prices'
+name: 'Daily prices'
 
 on:
   schedule:
