@@ -1,0 +1,34 @@
+name: 'Retrieve daily prices'
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ESIOS_TOKEN: ${{ secrets.ESIOS_TOKEN }}
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+  
+    - name: Checkout repository
+      uses: actions/checkout@master
+      with:
+        ref: main
+
+    - name: Get today's prices
+      run: ./scripts/get_prices.sh
+
+    - name: Store env variables
+      run: |
+        echo "TODAY=$(date +%F)" >> $GITHUB_ENV
+      
+    - name: Commit and push updates
+      run: |
+        git config user.name 'Asier Martinez'
+        git config user.email 'hey@asier.io'
+        git add .
+        git commit -m "Updating prices for ${TODAY}"
+        git push
