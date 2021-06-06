@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SOURCE_FILE=$1
-DESTINATION_FILE=./prices/${sourcefile##*/}
+DESTINATION_FILE=./prices/${SOURCE_FILE##*/}
 
 jq '
   def cleanprice: 
