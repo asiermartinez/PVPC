@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sourcefile=$1
-destinationfile=./prices/${sourcefile##*/}
+SOURCE_FILE=$1
+DESTINATION_FILE=./prices/${sourcefile##*/}
 
 jq '
   def cleanprice: 
@@ -30,4 +30,4 @@ jq '
     | .["cym_price"] = (.CYM | cleanprice)
     | del(.PCB, .CYM)
   ]
-' ${sourcefile} > ${destinationfile}
+' ${SOURCE_FILE} > ${DESTINATION_FILE}

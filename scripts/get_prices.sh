@@ -1,6 +1,6 @@
 #!/bin/bash
 
-filename="./source/$(date '+%F_%a').json"
+FILENAME=$1
 
 curl -X GET \
   "https://api.esios.ree.es/archives/70/download_json?locale=en" \
@@ -8,4 +8,4 @@ curl -X GET \
 	-H "Content-Type: application/json" \
 	-H "Host: api.esios.ree.es" \
 	-H "Authorization: Token token=\"${ESIOS_TOKEN}\"" \
-	-H "Cookie: " > ${filename}
+	-H "Cookie: " > ${FILENAME}
