@@ -12,18 +12,25 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
+
+    - name: 'Install JQ'
+      run: apt-get install jq
   
     - name: Checkout repository
       uses: actions/checkout@master
       with:
         ref: main
 
-    - name: Get today's prices
-      run: sh ./scripts/get_prices.sh
-
     - name: Store env variables
       run: |
         echo "TODAY=$(date +%F)" >> $GITHUB_ENV
+        echo "FILE_PATH=./source/$(date '+%F_%a').json" >> $GITHUB_ENV
+
+    - name: Get today's prices
+      run: sh ./scripts/get_prices.sh ${FILE_PATH}
+
+    - name: Process today's prices
+      run: sh ./scripts/parse_prices.sh ${FILE_PATH}
       
     - name: Commit and push updates
       run: |
