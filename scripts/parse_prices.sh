@@ -1,15 +1,12 @@
 #!/bin/bash
 
-# TODO Fix CEST/CET to UTF conversion
-# TODO Refactor date operations
+# TODO Refactor and clean date operations
 
 SOURCE_FILE=$1
 DESTINATION_FILE=./prices/${SOURCE_FILE##*/}
 UTC_OFFSET=$(TZ="Europe/Madrid" date +%z)
 
-echo $UTC_OFFSET
-
-jq '
+jq --arg UTC_OFFSET "$UTC_OFFSET" '
   # workaround for https://github.com/stedolan/jq/issues/2001
   def fromdate1: (. | fromdate) as $t1 | ($t1 | todate | fromdate) as $t2 | $t1 - ($t2 - $t1);
 
@@ -20,10 +17,10 @@ jq '
     else . end;
 
   def fromCET:
-    . - 7200;
+    . - ($UTC_OFFSET[:3]|tonumber) * 60 * 60;
 
   def toCET:
-    . + 7200;
+    . + ($UTC_OFFSET[:3]|tonumber) * 60 * 60;
 
   def getutc:
       (.["Dia"][6:10] + "-" + .["Dia"][3:5] + "-" + .["Dia"][:2] +
@@ -32,7 +29,7 @@ jq '
   def setdatetime:
     .["starts"] = 
       (.["Dia"][6:10] + "-" + .["Dia"][3:5] + "-" + .["Dia"][:2] +
-      "T" + .["Hora"][:2] + ":00:00+02:00");
+      "T" + .["Hora"][:2] + ":00:00" + $UTC_OFFSET[:3] + ":" + $UTC_OFFSET[3:]);
   
   def getweekday:
     (getutc | fromdate1 | toCET | strftime("%a"));
