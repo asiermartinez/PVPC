@@ -5,6 +5,11 @@
 
 SOURCE_FILE=$1
 DESTINATION_FILE=./prices/${SOURCE_FILE##*/}
+TZ="Europe/Madrid"
+UTC_OFFSET=$(date +%z)
+
+echo $TZ
+echo $UTC_OFFSET
 
 jq '
   # workaround for https://github.com/stedolan/jq/issues/2001
