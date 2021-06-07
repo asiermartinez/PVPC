@@ -5,10 +5,8 @@
 
 SOURCE_FILE=$1
 DESTINATION_FILE=./prices/${SOURCE_FILE##*/}
-export TZ="Europe/Madrid"
-UTC_OFFSET=$(date +%z)
+UTC_OFFSET=$(TZ="Europe/Madrid" date +%z)
 
-echo $TZ
 echo $UTC_OFFSET
 
 jq '
