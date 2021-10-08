@@ -1,0 +1,146 @@
+[
+  {
+    "starts": "2021-10-08T00:00:00+02:00",
+    "rate": "valley",
+    "pcb_price": "0.28733",
+    "cym_price": "0.28733"
+  },
+  {
+    "starts": "2021-10-08T01:00:00+02:00",
+    "rate": "valley",
+    "pcb_price": "0.27916",
+    "cym_price": "0.27916"
+  },
+  {
+    "starts": "2021-10-08T02:00:00+02:00",
+    "rate": "valley",
+    "pcb_price": "0.26938",
+    "cym_price": "0.26938"
+  },
+  {
+    "starts": "2021-10-08T03:00:00+02:00",
+    "rate": "valley",
+    "pcb_price": "0.26056",
+    "cym_price": "0.26056"
+  },
+  {
+    "starts": "2021-10-08T04:00:00+02:00",
+    "rate": "valley",
+    "pcb_price": "0.24711",
+    "cym_price": "0.24711"
+  },
+  {
+    "starts": "2021-10-08T05:00:00+02:00",
+    "rate": "valley",
+    "pcb_price": "0.25209",
+    "cym_price": "0.25209"
+  },
+  {
+    "starts": "2021-10-08T06:00:00+02:00",
+    "rate": "valley",
+    "pcb_price": "0.28689",
+    "cym_price": "0.28689"
+  },
+  {
+    "starts": "2021-10-08T07:00:00+02:00",
+    "rate": "valley",
+    "pcb_price": "0.32171",
+    "cym_price": "0.32171"
+  },
+  {
+    "starts": "2021-10-08T08:00:00+02:00",
+    "rate": "flat",
+    "pcb_price": "0.36864",
+    "cym_price": "0.36864"
+  },
+  {
+    "starts": "2021-10-08T09:00:00+02:00",
+    "rate": "flat",
+    "pcb_price": "0.32989",
+    "cym_price": "0.32989"
+  },
+  {
+    "starts": "2021-10-08T10:00:00+02:00",
+    "rate": "peak",
+    "pcb_price": "0.30776",
+    "cym_price": "0.29525"
+  },
+  {
+    "starts": "2021-10-08T11:00:00+02:00",
+    "rate": "peak",
+    "pcb_price": "0.28404",
+    "cym_price": "0.28404"
+  },
+  {
+    "starts": "2021-10-08T12:00:00+02:00",
+    "rate": "peak",
+    "pcb_price": "0.26142",
+    "cym_price": "0.26142"
+  },
+  {
+    "starts": "2021-10-08T13:00:00+02:00",
+    "rate": "peak",
+    "pcb_price": "0.25653",
+    "cym_price": "0.25653"
+  },
+  {
+    "starts": "2021-10-08T14:00:00+02:00",
+    "rate": "flat",
+    "pcb_price": "0.24985",
+    "cym_price": "0.26245"
+  },
+  {
+    "starts": "2021-10-08T15:00:00+02:00",
+    "rate": "flat",
+    "pcb_price": "0.24934",
+    "cym_price": "0.24934"
+  },
+  {
+    "starts": "2021-10-08T16:00:00+02:00",
+    "rate": "flat",
+    "pcb_price": "0.25474",
+    "cym_price": "0.25474"
+  },
+  {
+    "starts": "2021-10-08T17:00:00+02:00",
+    "rate": "flat",
+    "pcb_price": "0.29271",
+    "cym_price": "0.29271"
+  },
+  {
+    "starts": "2021-10-08T18:00:00+02:00",
+    "rate": "peak",
+    "pcb_price": "0.33237",
+    "cym_price": "0.31979"
+  },
+  {
+    "starts": "2021-10-08T19:00:00+02:00",
+    "rate": "peak",
+    "pcb_price": "0.35666",
+    "cym_price": "0.35666"
+  },
+  {
+    "starts": "2021-10-08T20:00:00+02:00",
+    "rate": "peak",
+    "pcb_price": "0.38000",
+    "cym_price": "0.38000"
+  },
+  {
+    "starts": "2021-10-08T21:00:00+02:00",
+    "rate": "peak",
+    "pcb_price": "0.36974",
+    "cym_price": "0.36974"
+  },
+  {
+    "starts": "2021-10-08T22:00:00+02:00",
+    "rate": "flat",
+    "pcb_price": "0.32447",
+    "cym_price": "0.33761"
+  },
+  {
+    "starts": "2021-10-08T23:00:00+02:00",
+    "rate": "flat",
+    "pcb_price": "0.30125",
+    "cym_price": "0.30125"
+  }
+]
